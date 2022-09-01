@@ -60,17 +60,32 @@ int main() {
     cout << B << endl;
 
     Eigen::JacobiRotation<double> gr;
+    Eigen::Matrix4d Q;
+    Q.setIdentity();
     gr.makeGivens(B(0,0), B(2,0));
     B.applyOnTheLeft(0, 2, gr.adjoint());
+    Q.applyOnTheLeft(0, 2, gr.adjoint());
 //    b3.applyOnTheLeft(0, 1, gr.adjoint());
     cout << "first time givens" << endl;
     cout << "B = \n" << B << endl;
 
     gr.makeGivens(B(1,1), B(3,1));
     B.applyOnTheLeft(1, 3, gr.adjoint());
+    Q.applyOnTheLeft(1, 3, gr.adjoint());
 //    b3.applyOnTheLeft(0, 1, gr.adjoint());
     cout << "second time givens" << endl;
     cout << "B = \n" << B << endl;
+
+    gr.makeGivens(B(1,1), B(2,1));
+    B.applyOnTheLeft(1, 2, gr.adjoint());
+    Q.applyOnTheLeft(1, 2, gr.adjoint());
+//    b3.applyOnTheLeft(0, 1, gr.adjoint());
+    cout << "third time givens" << endl;
+    cout << "B = \n" << B << endl;
+
+
+    cout << "Q = \n" << Q << endl;
+    cout << Q.transpose() * B << endl;
 
 
     return 0;
