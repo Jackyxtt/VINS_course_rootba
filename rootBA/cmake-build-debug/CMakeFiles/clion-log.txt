@@ -1,0 +1,11 @@
+/media/yxt/storage/clion-2021.2.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" "/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA"
+-- Found installed version of Eigen: /usr/lib/cmake/eigen3
+-- Found required Ceres dependency: Eigen version 3.3.4 in /usr/include/eigen3
+-- Found required Ceres dependency: glog
+-- Found installed version of gflags: /usr/lib/x86_64-linux-gnu/cmake/gflags
+-- Detected gflags version: 2.2.1
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 1.13.0 installed in: /usr with components: [LAPACK, SuiteSparse, SparseLinearAlgebraLibrary, CXSparse, SchurSpecializations, OpenMP]
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/cmake-build-debug

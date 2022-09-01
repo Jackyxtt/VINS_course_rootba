@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++11  -g -O3 -march=native -g CMakeFiles/test1.dir/test1.cpp.o -o test1 

@@ -1,0 +1,68 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rootBA",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "benchmark_rootba::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-benchmark_rootba-Release-87f943f2b77214237960.json",
+					"name" : "benchmark_rootba",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_rootba::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_rootba-Release-ecda236dae6963c68af1.json",
+					"name" : "test_rootba",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/build",
+		"source" : "/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

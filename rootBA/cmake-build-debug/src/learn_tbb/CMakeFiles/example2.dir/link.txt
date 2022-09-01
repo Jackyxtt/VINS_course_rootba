@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++11  -g -O3 -march=native -g CMakeFiles/example2.dir/example2.cpp.o -o example2  /usr/lib/x86_64-linux-gnu/libtbb.so 

@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="rootBA"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\learn_tbb\;CMake Files\src\test&amp;&amp;\;CMake Files\cmake_modules\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\cmake\eigen3\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\cmake\Ceres\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark_rootba">
+				<Option output="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/cmake-build-debug/benchmark_rootba" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA"/>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/include"/>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/test"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/Makefile&quot;  VERBOSE=1 benchmark_rootba"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark_rootba/fast">
+				<Option output="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/cmake-build-debug/benchmark_rootba" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA"/>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/include"/>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/test"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/Makefile&quot;  VERBOSE=1 benchmark_rootba/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_rootba">
+				<Option output="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/cmake-build-debug/test_rootba" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA"/>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/include"/>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/test"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_rootba"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_rootba/fast">
+				<Option output="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/cmake-build-debug/test_rootba" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA"/>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/include"/>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/test"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_rootba/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example2">
+				<Option output="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/cmake-build-debug/src/learn_tbb/example2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/cmake-build-debug/src/learn_tbb"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA"/>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/include"/>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/test"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/learn_tbb/Makefile&quot;  VERBOSE=1 example2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/learn_tbb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/learn_tbb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/learn_tbb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example2/fast">
+				<Option output="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/cmake-build-debug/src/learn_tbb/example2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/cmake-build-debug/src/learn_tbb"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA"/>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/include"/>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/test"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/learn_tbb/Makefile&quot;  VERBOSE=1 example2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/learn_tbb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/learn_tbb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/learn_tbb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example1">
+				<Option output="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/cmake-build-debug/src/learn_tbb/example1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/cmake-build-debug/src/learn_tbb"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA"/>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/include"/>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/test"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/learn_tbb/Makefile&quot;  VERBOSE=1 example1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/learn_tbb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/learn_tbb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/learn_tbb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example1/fast">
+				<Option output="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/cmake-build-debug/src/learn_tbb/example1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/cmake-build-debug/src/learn_tbb"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA"/>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/include"/>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/test"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/learn_tbb/Makefile&quot;  VERBOSE=1 example1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/learn_tbb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/learn_tbb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/learn_tbb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testgivens">
+				<Option output="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/cmake-build-debug/src/test&amp;&amp;/testgivens" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/cmake-build-debug/src/test&amp;&amp;"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA"/>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/include"/>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/test"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/test&amp;&amp;/Makefile&quot;  VERBOSE=1 testgivens"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/test&amp;&amp;/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/test&amp;&amp;/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/test&amp;&amp;/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testgivens/fast">
+				<Option output="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/cmake-build-debug/src/test&amp;&amp;/testgivens" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/cmake-build-debug/src/test&amp;&amp;"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA"/>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/include"/>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/test"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/test&amp;&amp;/Makefile&quot;  VERBOSE=1 testgivens/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/test&amp;&amp;/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/test&amp;&amp;/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/test&amp;&amp;/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test1">
+				<Option output="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/cmake-build-debug/src/test&amp;&amp;/test1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/cmake-build-debug/src/test&amp;&amp;"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA"/>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/include"/>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/test"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/test&amp;&amp;/Makefile&quot;  VERBOSE=1 test1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/test&amp;&amp;/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/test&amp;&amp;/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/test&amp;&amp;/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test1/fast">
+				<Option output="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/cmake-build-debug/src/test&amp;&amp;/test1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/cmake-build-debug/src/test&amp;&amp;"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA"/>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/include"/>
+					<Add directory="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/test"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/test&amp;&amp;/Makefile&quot;  VERBOSE=1 test1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/test&amp;&amp;/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/test&amp;&amp;/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/yxt/storage/教程/从零手写VIO/第11章\ Square\ root\ bundle\ adjustment\ for\ large\ scale\ reconstruction/Project\ BASolver/rootBA/cmake-build-debug/src/test&amp;&amp;/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/src/benchmark_rootba.cpp">
+			<Option target="benchmark_rootba"/>
+		</Unit>
+		<Unit filename="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/src/learn_tbb/example1.cpp">
+			<Option target="example1"/>
+		</Unit>
+		<Unit filename="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/src/learn_tbb/example2.cpp">
+			<Option target="example2"/>
+		</Unit>
+		<Unit filename="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/src/test&amp;&amp;/test1.cpp">
+			<Option target="test1"/>
+		</Unit>
+		<Unit filename="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/src/test&amp;&amp;/testgivens.cpp">
+			<Option target="testgivens"/>
+		</Unit>
+		<Unit filename="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/src/test_rootba.cpp">
+			<Option target="test_rootba"/>
+		</Unit>
+		<Unit filename="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/src/learn_tbb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\learn_tbb\"/>
+		</Unit>
+		<Unit filename="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/src/test&amp;&amp;/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\test&amp;&amp;\"/>
+		</Unit>
+		<Unit filename="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/cmake_modules/FindTBB.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/../../../../../../../../usr/lib/cmake/eigen3/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/../../../../../../../../usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/../../../../../../../../usr/lib/cmake/eigen3/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/../../../../../../../../usr/lib/cmake/Ceres/CeresConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/../../../../../../../../usr/lib/cmake/Ceres/CeresConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/../../../../../../../../usr/lib/cmake/Ceres/CeresTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/../../../../../../../../usr/lib/cmake/Ceres/CeresTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/../../../../../../../../usr/lib/cmake/Ceres/FindEigen.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/../../../../../../../../usr/lib/cmake/Ceres/FindGflags.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/../../../../../../../../usr/lib/cmake/Ceres/FindGlog.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

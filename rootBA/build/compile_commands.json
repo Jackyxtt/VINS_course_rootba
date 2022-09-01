@@ -1,0 +1,13 @@
+[
+{
+  "directory": "/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/build",
+  "command": "/usr/bin/clang++-6.0   -I../ -I../include -I../test -I/usr/include/eigen3  -std=c++17 -O3 -O3 -DNDEBUG   -o CMakeFiles/test_rootba.dir/src/test_rootba.cpp.o -c \"/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/src/test_rootba.cpp\"",
+  "file": "/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/src/test_rootba.cpp"
+},
+
+{
+  "directory": "/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/build",
+  "command": "/usr/bin/clang++-6.0  -DGFLAGS_IS_A_DLL=0 -I../ -I../include -I../test -I/usr/include/eigen3  -std=c++17 -O3 -O3 -DNDEBUG   -o CMakeFiles/benchmark_rootba.dir/src/benchmark_rootba.cpp.o -c \"/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/src/benchmark_rootba.cpp\"",
+  "file": "/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/src/benchmark_rootba.cpp"
+}
+]

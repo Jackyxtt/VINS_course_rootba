@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++17 -O3 -O3 -DNDEBUG CMakeFiles/benchmark_rootba.dir/src/benchmark_rootba.cpp.o -o benchmark_rootba  /usr/lib/x86_64-linux-gnu/libtbb.so /usr/lib/libceres.so.1.13.0 /usr/lib/x86_64-linux-gnu/libglog.so /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.1 -lpthread 

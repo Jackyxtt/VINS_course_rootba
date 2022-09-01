@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/yxt/storage/教程/从零手写VIO/第11章 Square root bundle adjustment for large scale reconstruction/Project BASolver/rootBA/src/learn_tbb/example1.cpp
+iostream
+-
+vector
+-
+tbb/tbb.h
+-
+tbb/blocked_range.h
+-
+tbb/parallel_for.h
+-
+
