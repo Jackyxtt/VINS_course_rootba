@@ -16,11 +16,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dff6863a-5213-49ae-8af4-f76b8d7c0f67" name="Changes" comment="验证求雅克比时左扰动和右扰动效果基本相同">
+    <list default="true" id="dff6863a-5213-49ae-8af4-f76b8d7c0f67" name="Changes" comment="givens变换例子">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rootBA/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/rootBA/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rootBA/cmake-build-debug/src/test&amp;&amp;/testgivens" beforeDir="false" afterPath="$PROJECT_DIR$/rootBA/cmake-build-debug/src/test&amp;&amp;/testgivens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rootBA/src/test&amp;&amp;/testgivens.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/rootBA/src/test&amp;&amp;/testgivens.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rootBA/cmake-build-debug/test_rootba" beforeDir="false" afterPath="$PROJECT_DIR$/rootBA/cmake-build-debug/test_rootba" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rootBA/include/landmark_block.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/rootBA/include/landmark_block.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rootBA/src/debug/checkJacobian.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rootBA/src/debug/checkJacobian.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
       <recent name="$PROJECT_DIR$/rootBA/src/test&amp;&amp;" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.testgivens">
+  <component name="RunManager" selected="CMake Application.test_rootba">
     <configuration name="benchmark_rootba" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="rootBA" TARGET_NAME="benchmark_rootba" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="rootBA" RUN_TARGET_NAME="benchmark_rootba">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -118,7 +119,7 @@
       <updated>1661867035850</updated>
       <workItem from="1661867040363" duration="5079000" />
       <workItem from="1661909201059" duration="33794000" />
-      <workItem from="1661995837923" duration="22975000" />
+      <workItem from="1661995837923" duration="26048000" />
     </task>
     <task id="LOCAL-00001" summary="add to gitignore">
       <created>1662018683601</created>
@@ -141,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662033098730</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="givens变换例子">
+      <created>1662040555371</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662040555372</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +169,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add to gitignore" />
     <MESSAGE value="验证求雅克比时左扰动和右扰动效果基本相同" />
-    <option name="LAST_COMMIT_MESSAGE" value="验证求雅克比时左扰动和右扰动效果基本相同" />
+    <MESSAGE value="givens变换例子" />
+    <option name="LAST_COMMIT_MESSAGE" value="givens变换例子" />
   </component>
 </project>

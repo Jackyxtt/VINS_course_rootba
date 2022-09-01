@@ -409,8 +409,12 @@ namespace rootBA {
 //                    std::cout << "Jacobian diff = \n" << reduce * tempJp.template block<3, 3>(0, 3) * w;
 //                    std::cout << "-------------------end checkJacobian---------------------" << std::endl;
                     std::ofstream ofs;
+
+                    size_t idx = (*this->cameraID_idx.find(observe.first)).second;
+
                     ofs.open("./src/debug/checkJacobian.txt", std::ios::out);
                     ofs << "camera index: " << observe.first << std::endl;
+                    ofs << "idx =" << idx << std::endl;
                     ofs << "sqrtInfo" << std::endl;
                     ofs << sqrtInfo << std::endl;
                     ofs << "residual after turb" << std::endl;
@@ -420,7 +424,7 @@ namespace rootBA {
                     ofs << "residual before turb" << std::endl;
                     ofs << "calculate: " << residual_before_preturb << std::endl;
                     ofs << "from storage r part: " <<
-                    this->storage.template block<2,1>(2 * observe.first, this->storage.cols() - 1) << std::endl;
+                    this->storage.template block<2,1>(2 * idx, this->storage.cols() - 1) << std::endl;
                     ofs << "r:" << std::endl;
                     ofs << this->storage.rightCols(1) << std::endl;
 
