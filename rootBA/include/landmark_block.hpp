@@ -366,7 +366,8 @@ namespace rootBA {
             Eigen::Matrix<Scalar, 3, 6> tempJp = Eigen::Matrix<Scalar, 3, 6>::Zero();
             if (camera->IsFixed() == false) {
                  tempJp.template block<3, 3>(0, 0) = -R_cb * R_bw;
-                 tempJp.template block<3, 3>(0, 3) = R_cb * SkewSymmetricMatrix(p_b);
+                 tempJp.template block<3, 3>(0, 3) = R_cb * SkewSymmetricMatrix(p_b);//左扰动
+//                 tempJp.template block<3, 3>(0, 3) = R_cb * R_bw * SkewSymmetricMatrix(p_w - t_wb);//右扰动
             }
 
             // 计算雅可比矩阵 d(相机坐标位置误差) / d(特征点 3 自由度位置)
@@ -380,7 +381,7 @@ namespace rootBA {
             Eigen::Matrix<Scalar, 3, 6> tempJex = Eigen::Matrix<Scalar, 3, 6>::Zero();
             if (this->exPose->IsFixed() == false) {
                  tempJex.template block<3, 3>(0, 0) = -R_cb;
-                 tempJex.template block<3, 3>(0, 3) = -SkewSymmetricMatrix(p_c);
+                 tempJex.template block<3, 3>(0, 3) = SkewSymmetricMatrix(p_c);
             }
             // Fill in above this line
 
